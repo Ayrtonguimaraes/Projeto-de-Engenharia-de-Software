@@ -1,6 +1,6 @@
 # Projeto-de-Engenharia-de-Software
 
-# SalaCin
+# FaCinlita
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/IF977/if977-project-standards.svg)](https://github.com/IF977/if977-project-standards/issues)
