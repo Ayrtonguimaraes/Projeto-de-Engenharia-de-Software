@@ -9,7 +9,7 @@
 
 ## Descrição
 
-Breve descrição do que o projeto faz e para quem ele é destinado.
+Nosso projeto é voltado para a comunidade do centro de informática da UFPE. O objetivo do projeto é facilitar reserva de salas para alunos, professores e associados ao cin.
 
 ## Início Rápido
 
