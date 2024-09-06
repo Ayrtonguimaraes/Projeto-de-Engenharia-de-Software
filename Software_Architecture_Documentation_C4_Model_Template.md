@@ -1,7 +1,7 @@
 # Documentação da Arquitetura de Software
 
 ## Visão Geral
-Este documento descreve a arquitetura de software do sistema [Nome do Sistema] utilizando o C4 Model. A arquitetura é apresentada em quatro níveis: Contexto, Container, Componente e Código.
+Este documento descreve a arquitetura de software do sistema DiverTyr utilizando o C4 Model. A arquitetura é apresentada em quatro níveis: Contexto, Container, Componente e Código.
 
 ---
 _**Instruções de Uso:**_
@@ -18,15 +18,23 @@ _**Instruções de Uso:**_
 ### 1.1. Descrição do Diagrama de Contexto
 O diagrama de contexto fornece uma visão geral de alto nível do sistema e suas interações com os atores externos.
 
-- **Sistema:** [Nome do Sistema]
-- **Atores Externos:** [Usuários, Sistemas Externos, etc.]
+- **Sistema:** DiverTyr
+- **Atores Externos:** 
+Usuário: Pessoas que acessam o sistema para planejar suas viagens.
+API Externa de IA: Fornece sugestões de atividades, destinos e restaurantes.
+Banco de Dados de Usuários e Itinerários: Armazena as informações de login e itinerários salvos.
 
 ### 1.2. Diagrama
 ![Diagrama de Contexto](path/para/diagrama-contexto.png)
 
 ### 1.3. Descrição dos Componentes
-- **Atores Externos:** Breve descrição dos atores externos que interagem com o sistema.
-- **Sistema:** Descrição do sistema e seu propósito principal.
+- **Atores Externos:** 
+Usuário: Interage com o sistema para criar e salvar itinerários de viagem.
+API Externa de IA: Um serviço externo que utiliza IA para gerar sugestões personalizadas de destinos e atividades.
+Banco de Dados: Responsável por armazenar dados dos usuários, itinerários e preferências salvas.
+
+- **Sistema:** 
+Um aplicativo que ajuda os usuários a planejar suas viagens com recomendações de IA, fornecendo itinerários completos e permitindo o armazenamento de sugestões.
 
 ---
 
@@ -35,17 +43,24 @@ O diagrama de contexto fornece uma visão geral de alto nível do sistema e suas
 ### 2.1. Descrição do Diagrama de Container
 O diagrama de container mostra os principais containers de software que compõem o sistema e como eles interagem entre si.
 
-- **Containers Incluídos:** [Ex: Aplicação Web, Banco de Dados, API, etc.]
+- **Containers Incluídos:** 
+Aplicação Web (Frontend)
+API de Backend (Node.js)
+Banco de Dados (MongoDB)
+API Externa de IA
 
 ### 2.2. Diagrama
 ![Diagrama de Container](path/para/diagrama-container.png)
 
 ### 2.3. Descrição dos Containers
-- **[Nome do Container]:** Descrição do container, sua responsabilidade e tecnologias utilizadas.
-  - **Tecnologias:** [Ex: Spring Boot, MySQL, etc.]
-  - **Responsabilidade:** [Função principal do container]
-  - **Interações:** [Containers com os quais interage]
+- **Aplicação Web (Frontend):** Descrição do container, sua responsabilidade e tecnologias utilizadas.
+  - **Tecnologias:** React, HTML, CSS.
+  - **Responsabilidade:** Interface com o usuário, permitindo login, chat com IA e salvamento de itinerários.
+  - **Interações:** Comunica-se com a API de backend para enviar e receber dados.
 
+- **API de Backend (Node.js):** Descrição do container, sua responsabilidade e tecnologias utilizadas.
+ - **Tecnologias:** Node.js, Express.
+  - **Responsabilidade:** Recebe requisições do frontend, se comunica com a API externa de IA para sugestões e salva/recupera dados do banco de dados.
 ---
 
 ## 3. Diagrama de Componente
