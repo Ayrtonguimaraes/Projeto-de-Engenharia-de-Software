@@ -25,7 +25,7 @@ API Externa de IA: Fornece sugestões de atividades, destinos e restaurantes.
 Banco de Dados de Usuários e Itinerários: Armazena as informações de login e itinerários salvos.
 
 ### 1.2. Diagrama
-![Diagrama de Contexto](![Captura de tela 2024-09-09 162346](https://github.com/user-attachments/assets/5af43f23-d6e6-4843-9df6-3e70ba07a59d)
+(![Captura de tela 2024-09-09 162346](https://github.com/user-attachments/assets/5af43f23-d6e6-4843-9df6-3e70ba07a59d)
 )
 
 ### 1.3. Descrição dos Componentes
@@ -51,7 +51,7 @@ Banco de Dados (MongoDB)
 API Externa de IA
 
 ### 2.2. Diagrama
-![Diagrama de Container](![Captura de tela 2024-09-09 170808](https://github.com/user-attachments/assets/07f77b02-7b87-4ef4-8989-fdbc2c082923)
+(![Captura de tela 2024-09-09 170808](https://github.com/user-attachments/assets/07f77b02-7b87-4ef4-8989-fdbc2c082923)
 )
 
 ### 2.3. Descrição dos Containers
@@ -74,7 +74,7 @@ O diagrama de componente detalha a arquitetura interna de cada container, mostra
 - **Container Focado:** Backend
 
 ### 3.2. Diagrama
-![Diagrama de Componente]![Captura de tela 2024-09-09 180532](https://github.com/user-attachments/assets/08ca0c75-5e0a-45e2-abdf-88c8a9769998)
+![Captura de tela 2024-09-09 180532](https://github.com/user-attachments/assets/08ca0c75-5e0a-45e2-abdf-88c8a9769998)
 
 
 ### 3.3. Descrição dos Componentes
