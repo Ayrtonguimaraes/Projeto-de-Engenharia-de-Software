@@ -25,7 +25,8 @@ API Externa de IA: Fornece sugestões de atividades, destinos e restaurantes.
 Banco de Dados de Usuários e Itinerários: Armazena as informações de login e itinerários salvos.
 
 ### 1.2. Diagrama
-![Diagrama de Contexto](path/para/diagrama-contexto.png)
+![Diagrama de Contexto](![Captura de tela 2024-09-09 162346](https://github.com/user-attachments/assets/5af43f23-d6e6-4843-9df6-3e70ba07a59d)
+)
 
 ### 1.3. Descrição dos Componentes
 - **Atores Externos:** 
