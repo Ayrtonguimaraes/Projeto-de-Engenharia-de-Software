@@ -51,7 +51,8 @@ Banco de Dados (MongoDB)
 API Externa de IA
 
 ### 2.2. Diagrama
-![Diagrama de Container](path/para/diagrama-container.png)
+![Diagrama de Container](![Captura de tela 2024-09-09 170808](https://github.com/user-attachments/assets/07f77b02-7b87-4ef4-8989-fdbc2c082923)
+)
 
 ### 2.3. Descrição dos Containers
 - **Aplicação Web (Frontend):** Descrição do container, sua responsabilidade e tecnologias utilizadas.
@@ -73,7 +74,8 @@ O diagrama de componente detalha a arquitetura interna de cada container, mostra
 - **Container Focado:** Backend
 
 ### 3.2. Diagrama
-![Diagrama de Componente](path/para/diagrama-componente.png)
+![Diagrama de Componente]![Captura de tela 2024-09-09 180532](https://github.com/user-attachments/assets/08ca0c75-5e0a-45e2-abdf-88c8a9769998)
+
 
 ### 3.3. Descrição dos Componentes
 - **Componente de Autenticação:** Descrição do componente, sua responsabilidade e interações.
