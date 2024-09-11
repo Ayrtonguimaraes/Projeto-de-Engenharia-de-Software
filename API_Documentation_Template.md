@@ -32,12 +32,18 @@ Authorization: Bearer {token}
 ```
 
 **Exemplo de Resposta:**
-```json
 {
-  "chave": "valor",
-  "outro_dado": "outro_valor"
+  "id": "chatcmpl-abc123",
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "Dia 1: Visita à Torre Eiffel... Dia 2: Museu do Louvre..."
+      }
+    }
+  ]
 }
-```
+
 
 **Códigos de Resposta e Descrições:**
 - **200 OK:** Sucesso.
