@@ -1,4 +1,4 @@
-# Documentação da API - Nome da API
+# Documentação da API - openAi API
 
 ---
 
