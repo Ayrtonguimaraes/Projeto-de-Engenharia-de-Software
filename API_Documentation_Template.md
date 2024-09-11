@@ -10,7 +10,7 @@
 ## 2. Especificação Técnica
 
 **Endpoints e Métodos:**
-- **URL Base:** (https://platform.openai.com/docs/api-reference/authentication).
+- **URL Base:** (https://api.openai.com/v1).
 - **Endpoint:** `/caminho/endpoint`
 - **Método Suportado:** `POST`
 
@@ -50,6 +50,7 @@ Authorization: Bearer {token}
 - **400 Bad Request:** A requisição contém parâmetros incorretos ou inválidos. Verifique a estrutura e os dados enviados.
 - **401 Unauthorized:** A autenticação falhou; geralmente, devido a um token de API inválido ou ausente.
 - **404 Not Found:** O endpoint requisitado não existe.
+- **429 To many requests:** Excedeu a taxa limite.
 - **500 Internal Server Error:** Ocorreu um erro inesperado no servidor.
 
 **Erros Comuns:**
