@@ -74,14 +74,14 @@ Authorization: Bearer OPENAI_API_KEY
 
 **Monitoramento:**
 - **Ferramentas Utilizadas:** Ferramentas de monitoramento como Prometheus e Logs podem ser integradas ao backend para monitoramento das requisições e uso da API.
-- **Métricas Monitoradas:** Liste as métricas importantes, como tempo de resposta, taxa de erro, etc.
+- **Métricas Monitoradas:** Tempo de resposta médio, taxa de erro, número de requisições por minuto, e consumo de recursos.
 
 **Desempenho:**
 - **Limites de Taxa (Rate Limits):** A OpenAI impõe limites de requisição, dependendo do plano contratado. Monitorar a taxa de requisição para evitar throttling.
-- **Otimização:** Descreva as técnicas de otimização usadas, como caching, balanceamento de carga, etc.
+- **Otimização:** Usar técnicas como caching para armazenar respostas frequentes e balanceamento de carga para distribuir requisições.
 
 **Escalabilidade:**
-- Descreva como a API lida com aumentos de carga e quais estratégias são utilizadas para manter a estabilidade e performance.
+- Utilizar escalabilidade horizontal e balanceamento de carga para garantir que a API suporte aumentos de tráfego sem comprometer a performance.
 
 ## 5. Versionamento e Compatibilidade
 
@@ -91,19 +91,12 @@ Authorization: Bearer OPENAI_API_KEY
 - **Exemplo:** `/v1/endpoint` ou uso de cabeçalhos específicos para versionamento.
 
 **Compatibilidade:**
-- Detalhe como as mudanças na API são comunicadas e como a compatibilidade retroativa é mantida ou quando as quebras de compatibilidade ocorrem.
+- A OpenAI comunica mudanças de versão com antecedência, e a compatibilidade retroativa é mantida sempre que possível. Em casos de quebra de compatibilidade, a documentação é atualizada para facilitar a adaptação.
 
 ## 6. Recursos Adicionais
 
 **Links de Referência:**
-- Inclua links para documentos de especificação, tutoriais ou outras fontes úteis que ajudem na compreensão e uso da API.
+- [Inclua links para documentos de especificação, tutoriais ou outras fontes úteis que ajudem na compreensão e uso da API.](https://platform.openai.com/docs/api-reference/introduction)
 
-**Glossário:**
-- Forneça um glossário de termos técnicos ou específicos da plataforma, caso necessário, para auxiliar no entendimento da documentação.
-
-**Exemplos Adicionais:**
-- Disponibilize exemplos de uso em diferentes linguagens de programação ou ambientes (ex: cURL, Python, JavaScript).
-
----
 
 **Nota:** Mantenha esta documentação sempre atualizada com as mudanças na API para evitar problemas de integração e uso indevido.
