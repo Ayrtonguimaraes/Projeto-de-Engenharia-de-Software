@@ -32,7 +32,7 @@ Authorization: Bearer {token}
 ```
 
 **Exemplo de Resposta:**
-{
+```{
   "id": "chatcmpl-abc123",
   "choices": [
     {
@@ -43,7 +43,7 @@ Authorization: Bearer {token}
     }
   ]
 }
-
+```
 
 **Códigos de Resposta e Descrições:**
 - **200 OK:** Sucesso.
