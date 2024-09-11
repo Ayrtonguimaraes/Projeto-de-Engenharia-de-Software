@@ -46,15 +46,15 @@ Authorization: Bearer {token}
 ```
 
 **Códigos de Resposta e Descrições:**
-- **200 OK:** Sucesso.
-- **400 Bad Request:** Descrição do erro e possíveis causas.
-- **401 Unauthorized:** Autenticação necessária.
-- **404 Not Found:** Recurso não encontrado.
-- **500 Internal Server Error:** Erro no servidor.
+- **200 OK:** A requisição foi bem-sucedida e a resposta foi retornada corretamente.
+- **400 Bad Request:** A requisição contém parâmetros incorretos ou inválidos. Verifique a estrutura e os dados enviados.
+- **401 Unauthorized:** A autenticação falhou; geralmente, devido a um token de API inválido ou ausente.
+- **404 Not Found:** O endpoint requisitado não existe.
+- **500 Internal Server Error:** Ocorreu um erro inesperado no servidor.
 
 **Erros Comuns:**
-- **Erro 400 - Parâmetro Inválido:** Detalhe a causa comum deste erro e como corrigi-lo.
-- **Erro 401 - Token Inválido:** Explicação sobre o erro de autenticação e como resolvê-lo.
+- **Erro 400 - Parâmetro Inválido:** Parâmetros da requisição malformados ou ausentes.
+- **Erro 401 - Token Inválido:** A chave de API está incorreta ou ausente.
 
 ## 3. Segurança e Autorização
 
