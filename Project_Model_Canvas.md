@@ -1,72 +1,71 @@
-
 # Project Model Canvas Template para Projetos de Software
 
 ## 1. Objetivos e Justificativas
-- **Descrição**: Desenvolver um aplicativo web que facilite o processo de agendamento de salas no Centro de Informática da UFPE. O objetivo é reduzir a burocracia e o tempo de espera, oferecendo uma plataforma intuitiva para alunos, professores e associados realizarem reservas de salas.
-- **Instruções**: Explique o problema que o projeto resolve e como ele se alinha aos objetivos do curso ou às necessidades dos usuários finais.
+- **Descrição**: Desenvolver um aplicativo que utilize inteligência artificial para identificar espécies de plantas e animais a partir de imagens enviadas pelos usuários. O objetivo é promover a conscientização sobre a biodiversidade e incentivar o aprendizado sobre espécies locais, apoiando também a preservação ambiental. A aplicação integrará tecnologias de IA, como o Google Gemini Vision Pro, e APIs de dados biológicos, como o GBIF.
+- **Instruções**: Explique o problema que o projeto resolve e como ele se alinha aos objetivos ambientais e educacionais, fornecendo aos usuários uma ferramenta de fácil acesso para identificação de espécies.
 
 ## 2. Requisitos Principais
 - **Descrição**: 
-Autenticação de usuários com e-mails do CIN.
-Filtros de busca por lotação máxima, bloco, andar e horário disponível.
-Interface intuitiva para visualização e reserva de salas.
-Histórico de reservas e possibilidade de cancelamento.
-Notificações de confirmação de reserva.
-- **Instruções**: Considere o que os usuários finais esperam do produto final e quais funcionalidades são essenciais para atender essas expectativas.
+  - Upload de imagens para identificar plantas e animais.
+  - Utilização da IA Google Gemini Vision Pro para reconhecimento de espécies.
+  - Integração com a API do GBIF para obter informações detalhadas sobre as espécies.
+  - Login seguro via Google OAuth.
+  - Chat com IA para responder às consultas dos usuários, com limite de 500 caracteres por resposta.
+  - Interface simples para envio de imagens e visualização do preview.
+- **Instruções**: Considere o que os usuários esperam do produto final e quais funcionalidades são essenciais para proporcionar uma experiência educativa e acessível.
 
 ## 3. Stakeholders
 - **Descrição**: 
-Usuários Finais: Alunos, professores e associados do CIN.
-Secretaria de Graduação: Responsável atualmente pelas reservas.
-Administração do CIN: Interessada na eficiência e modernização dos processos internos.
-- **Instruções**: Mapeie os principais interessados e descreva como eles são impactados pelo projeto. Inclua também suas expectativas e responsabilidades.
+  - Usuários Finais: Pessoas interessadas em aprender sobre espécies de plantas e animais.
+  - Comunidades Científicas: Potenciais beneficiárias da coleta de dados sobre biodiversidade.
+  - Organizações de Preservação Ambiental: Interessadas na conscientização ambiental e proteção de espécies.
+- **Instruções**: Mapeie os principais interessados e descreva como eles serão impactados pelo projeto. Inclua também suas expectativas e responsabilidades.
 
 ## 4. Entregas
 - **Descrição**: 
-Aplicativo web funcional (MVP).
-Documentação técnica e de usuário.
-
-- **Instruções**: Liste todos os componentes que precisam ser entregues para que o projeto seja considerado completo. Seja específico sobre o que cada entrega inclui.
+  - Aplicativo funcional (MVP) para identificação de espécies com base em imagens.
+  - Integração com IA e APIs de dados biológicos.
+  - Documentação técnica e de usuário.
+- **Instruções**: Liste os componentes a serem entregues para que o projeto seja considerado completo. Seja específico sobre o que cada entrega inclui.
 
 ## 5. Marcos e Cronograma
 - **Descrição**: 
-Sprint 1: Planejamento e definição de requisitos.
-Sprint 2: Design da interface do usuário e arquitetura do sistema.
-Sprint 3-4: Desenvolvimento do back-end (API e banco de dados).
-Sprint 5-6: Desenvolvimento do front-end (interface de usuário) e testes iniciais.
-Sprint 7: Integração e testes finais.
-Sprint 8: Correções, deploy e documentação.
-- **Instruções**: Desenvolva um plano de tempo realista que alinhe as entregas com os marcos. Inclua datas ou semanas do curso para cada marco.
+  - Sprint 1: Planejamento e definição de requisitos.
+  - Sprint 2: Design da interface de usuário.
+  - Sprint 3: Desenvolvimento do back-end e integração com APIs.
+  - Sprint 4: Implementação da IA para reconhecimento de imagens.
+  - Sprint 5: Testes de funcionalidades e ajustes finais.
+  - Sprint 6: Lançamento do MVP e documentação.
+- **Instruções**: Desenvolva um plano de tempo realista que alinhe as entregas com os marcos. Inclua datas ou semanas para cada marco.
 
 ## 6. Riscos e Suposições
 - **Descrição**: 
-**Riscos**:
-Problemas técnicos na integração do front-end e back-end.
-Atrasos no desenvolvimento devido a imprevistos.
-Falta de adoção pelos usuários finais.
+  **Riscos**:
+  - Problemas técnicos na integração com APIs e IA.
+  - Atrasos no desenvolvimento devido a ajustes na IA.
+  - A baixa aceitação pelos usuários devido à falta de familiaridade com a tecnologia.
 
-**Suposições**:
-Os usuários possuem um e-mail válido do CIN.
-A infraestrutura de TI do CIN suporta o novo sistema.
-
-- **Instruções**: Pense em fatores internos e externos que poderiam desviar o projeto de seu curso e como você pretende mitigar esses riscos.
+  **Suposições**:
+  - A infraestrutura da API do GBIF está disponível e funcional.
+  - Os usuários possuem acesso a dispositivos capazes de tirar fotos de qualidade para análise.
+- **Instruções**: Pense em fatores que poderiam desviar o projeto e como pretende mitigar esses riscos.
 
 ## 7. Orçamento
 - **Descrição**: 
-Recursos de Tempo:
-Horas de trabalho da equipe de desenvolvimento e design.
-Tempo alocado para testes e correções.
-- **Instruções**: Considere se haverá custos associados, como software, hardware ou outros recursos. Se o projeto é puramente acadêmico, foco pode ser no tempo como recurso.
+  - Recursos de Tempo:
+    - Horas de trabalho para desenvolvimento, design e testes.
+    - Tempo alocado para integrar a API do GBIF e a IA do Google Gemini Vision Pro.
+- **Instruções**: Considere o tempo como o principal recurso necessário. Explique como ele será alocado ao longo do desenvolvimento do projeto.
 
 ## 8. Premissas
 - **Descrição**: 
-Os usuários estão familiarizados com o uso de aplicativos web.
-Haverá suporte administrativo para a transição do sistema antigo para o novo.
-A infraestrutura existente do CIN pode ser integrada ao novo sistema.
-- **Instruções**: Liste as principais suposições que estão sendo feitas ao planejar o projeto. Explique como essas suposições afetam o planejamento e a execução do projeto.
+  - Os usuários terão acesso à internet e dispositivos móveis para fazer upload de imagens.
+  - As APIs do Google Gemini Vision Pro e do GBIF continuarão a oferecer suporte durante o projeto.
+  - O sistema será intuitivo o suficiente para atrair o interesse de usuários sem conhecimentos técnicos.
+- **Instruções**: Liste as principais suposições feitas no planejamento e como elas afetam a execução do projeto.
 
 ## 9. Restrições
 - **Descrição**: 
-Limitações de Tempo: O projeto deve ser concluído dentro do período acadêmico especificado.
-Tecnologia: Compatibilidade com a infraestrutura atual do CIN.
-- **Instruções**: Identifique as principais restrições que o projeto enfrentará. Isso pode incluir limitações de tempo, recursos, tecnologias ou regulamentações específicas.
+  - Limitações de Tempo: O projeto deve ser concluído dentro do período de desenvolvimento definido.
+  - Tecnologia: Dependência de integrações com APIs externas e do funcionamento da IA.
+- **Instruções**: Identifique as principais restrições que o projeto enfrentará, incluindo limitações de tempo e dependência de tecnologias externas.
