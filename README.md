@@ -47,6 +47,7 @@ Para enviar uma imagem para identificação, use: upload_image('imagem.jpg').
 **Resposta:** O NatureLens utiliza inteligência artificial, através do Google Gemini Vision Pro, para analisar a imagem enviada pelo usuário e identificar se é uma planta ou um animal, retornando informações detalhadas sobre a espécie.
 
 **Pergunta 2:** O NatureLens coleta dados pessoais?
+
 **Resposta:** Sim, a autenticação via Google OAuth pode coletar informações básicas do perfil do usuário, mas essas informações são utilizadas apenas para fins de personalização e não são compartilhadas com terceiros.
 
 ## Estado do Projeto
