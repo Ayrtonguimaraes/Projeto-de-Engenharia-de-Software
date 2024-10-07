@@ -1,88 +1,68 @@
 # Projeto-de-Engenharia-de-Software
 
-# FaCinlita
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/IF977/if977-project-standards.svg)](https://github.com/IF977/if977-project-standards/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/IF977/if977-project-standards.svg)](https://github.com/IF977/if977-project-standards/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+# NatureLens
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()  
+[![GitHub Issues](https://img.shields.io/github/issues/IF977/if977-project-standards.svg)](https://github.com/IF977/if977-project-standards/issues)  
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/IF977/if977-project-standards.svg)](https://github.com/IF977/if977-project-standards/pulls)  
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)  
 
 ## Descrição
 
-Nosso projeto é voltado para a comunidade do centro de informática da UFPE. O objetivo do projeto é facilitar reserva de salas para alunos, professores e associados ao cin.
+**NatureLens** é uma aplicação que identifica espécies de plantas e animais a partir de imagens, utilizando IA e integração com APIs como Google Gemini Vision Pro e GBIF, promovendo a conscientização ambiental.
 
 ## Início Rápido
 
-Essas instruções fornecerão uma cópia do projeto instalada e funcionando na sua máquina local para fins de desenvolvimento e teste.
-
 ### Pré-requisitos
 
-O que é necessário para instalar o software e como instalá-lo:
-
-```bash
-comando para instalar
-```
+Para instalar o software: npm install naturelens.
 
 ### Instalação
 
-Um passo a passo da série de exemplos que informam como fazer um ambiente de desenvolvimento em execução:
+Clone o repositório: git clone https://github.com/NatureLens/naturelens.git.
 
-```bash
-clone o repositório
-```
+Instale as dependências: npm install.
 
-```bash
-instale todas as dependências
-```
-
-```bash
-configure o banco de dados (se aplicável)
-```
+Configure o banco de dados com as credenciais da API.
 
 ## Uso
 
-Demonstrações de como usar o projeto:
-
-```python
-# Exemplo de código
-```
+Para enviar uma imagem para identificação, use: upload_image('imagem.jpg').
 
 ## Funcionalidades
 
-- Funcionalidade 1
-- Funcionalidade 2
-- Funcionalidade 3
+- **Identificação de espécies:** O usuário faz upload de uma imagem, e o sistema identifica se é uma planta ou animal, retornando detalhes como nome científico e habitat.
+- **Login via Google OAuth:** O sistema permite login via Google para uma experiência segura.
+- **Interface de chat com IA:** O usuário pode interagir com a IA após o upload da imagem.
 
 ## Documentação
 
-[Documentação](link-para-documentação)
+Acesse a documentação completa em https://naturelens.docs/api.
 
 ## Como Contribuir
 
-Contribuições são sempre bem-vindas, veja como você pode ajudar:
-1. Clone o repositório e crie sua branch a partir de `main`.
-2. `git checkout -b minha-nova-feature`
-3. Faça suas alterações e commit.
-4. Envie para a branch.
-5. Abra um Pull Request.
+1. Crie uma branch a partir de main: git checkout -b minha-nova-feature.
+2. Faça suas alterações e commit: git commit -m "Descrição das alterações".
+3. Envie para a branch: git push origin minha-nova-feature.
+4. Abra um Pull Request.
 
 ### Diretrizes de Contribuição
 
-Leia através do [CONTRIBUTING.md](link-para-contributing.md)
+Leia o CONtributing.md para mais detalhes.
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE) para detalhes.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE.md para detalhes.
 
 ## Créditos
 
-- Nome do autor (@username)
-- Outros colaboradores
+- **Nome do autor** (@username)
+- **Outros colaboradores**
 
 ## FAQ
 
-**Pergunta 1:** Como faço para configurar o ambiente?
-
+**Pergunta 1:** Como faço para configurar o ambiente?  
 **Resposta:** Siga as instruções de instalação e qualquer etapa de configuração adicional indicada acima.
 
 ## Estado do Projeto
@@ -93,4 +73,3 @@ Este projeto está em desenvolvimento ativo. Você pode esperar mudanças freque
 
 ![Screenshot 1](link-para-screenshot.png)
 
----
