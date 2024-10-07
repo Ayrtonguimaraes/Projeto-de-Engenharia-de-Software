@@ -36,34 +36,18 @@ Para enviar uma imagem para identificação, use: upload_image('imagem.jpg').
 - **Login via Google OAuth:** O sistema permite login via Google para uma experiência segura.
 - **Interface de chat com IA:** O usuário pode interagir com a IA após o upload da imagem.
 
-## Documentação
-
-Acesse a documentação completa em https://naturelens.docs/api.
-
-## Como Contribuir
-
-1. Crie uma branch a partir de main: git checkout -b minha-nova-feature.
-2. Faça suas alterações e commit: git commit -m "Descrição das alterações".
-3. Envie para a branch: git push origin minha-nova-feature.
-4. Abra um Pull Request.
-
-### Diretrizes de Contribuição
-
-Leia o CONtributing.md para mais detalhes.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE.md para detalhes.
 
 ## Créditos
 
-- **Nome do autor** (@username)
-- **Outros colaboradores**
+- **Nome do autor** João Paulo Nolasco e Ayrton Guimarães
 
 ## FAQ
 
-**Pergunta 1:** Como faço para configurar o ambiente?  
-**Resposta:** Siga as instruções de instalação e qualquer etapa de configuração adicional indicada acima.
+**Pergunta 1:** Como funciona a identificação de espécies?  
+**Resposta:** O NatureLens utiliza inteligência artificial, através do Google Gemini Vision Pro, para analisar a imagem enviada pelo usuário e identificar se é uma planta ou um animal, retornando informações detalhadas sobre a espécie.
+
+**Pergunta 2:** O NatureLens coleta dados pessoais?
+**Resposta:** Sim, a autenticação via Google OAuth pode coletar informações básicas do perfil do usuário, mas essas informações são utilizadas apenas para fins de personalização e não são compartilhadas com terceiros.
 
 ## Estado do Projeto
 
